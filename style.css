@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1c1c1c;
+    color: #FFD700;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: max-content;
+}
+
+/* main */
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 2%;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* divisoes */
+
+div {
+    width: 20rem;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+.primeiro {
+    background-color: #FFD700;
+}
+
+.segundo {
+    background-color: silver;
+}
+
+.terceiro {
+    background-color: #521b0df5;
+}
+
+/* vid */
+
+video {
+    width: 18rem;
+    height: 23rem;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    object-fit: cover;
+}
+
+/* input */
+
+input {
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    border: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.primeiroInput {
+    background-color: #af9500;
+}
+
+.segundoInput {
+    background-color: rgb(238, 238, 238);
+}
+
+.terceiroInput {
+    background-color: #9c2a0df5;
+}
+
+a {
+    background-color: #F5F5F5;
+    width: 90%;
+    padding: 5px 0px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+    background-color: #1c1c1c;
+    color: #f5f5f5;
+    transition: 0.5s;
+}
